@@ -316,6 +316,18 @@ body {
     font-size: 16px;
 }
 
-.hd li .active{
+.hd li .active {
     color: #00a4ff;
+}
+
+.bd .left {
+    width: 228px;
+}
+
+.bd .right {
+    width: 957.px;
+}
+
+.bd .right .top{
+    height: 100px;
 }
