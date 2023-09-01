@@ -278,15 +278,17 @@ body {
     background-color: pink;
 }
 
-.bd li .pic{
+.bd li .pic {
     height: 156px;
 }
-.bd li .text{
+
+.bd li .text {
     padding: 20px;
     height: 115px;
-    background-color:#fff;
+    background-color: #fff;
 }
-.bd li .text h4{
+
+.bd li .text h4 {
     margin-bottom: 13px;
     height: 40px;
     font-size: 14px;
@@ -294,11 +296,26 @@ body {
     font-weight: 400;
 }
 
-.bd li .text p{
+.bd li .text p {
     font-size: 14px;
     line-height: 20px;
     color: #999;
 }
-.bd li .text span{
+
+.bd li .text span {
     color: #fa6400;
+}
+
+/* 前端 */
+.hd ul {
+    display: flex;
+}
+
+.hd li {
+    margin-right: 60px;
+    font-size: 16px;
+}
+
+.hd li .active{
+    color: #00a4ff;
 }
